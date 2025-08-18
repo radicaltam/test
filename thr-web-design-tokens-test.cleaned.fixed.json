@@ -537,7 +537,7 @@
       "blue": {
         "dark": {
           "$type": "color",
-          "$value": "{color.blue.900}",
+          "$value": "{color-blue-900}",
           "$description": "supportive, structured content"
         },
         "base": {
