@@ -1,0 +1,282 @@
+{
+  "breakpoints": {
+    "layout": {
+      "$type": "string",
+      "$value": "mobile"
+    },
+    "breakpoint-width": {
+      "$type": "dimension",
+      "$value": "390px"
+    }
+  },
+  "component": {
+    "margins": {
+      "none": {
+        "$type": "dimension",
+        "$value": "{spacing.base.none}"
+      },
+      "top": {
+        "small": {
+          "$type": "dimension",
+          "$value": "{spacing.6}"
+        }
+      },
+      "bottom": {
+        "small": {
+          "$type": "dimension",
+          "$value": "{spacing.6}"
+        }
+      },
+      "side": {
+        "small": {
+          "$type": "dimension",
+          "$value": "{spacing.2}"
+        }
+      }
+    },
+    "width": {
+      "max-width": {
+        "$type": "dimension",
+        "$value": "735px"
+      }
+    }
+  },
+  "typography": {
+    "display": {
+      "lg": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.26}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.30}"
+          }
+        }
+      },
+      "md": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.24}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.29}"
+          }
+        }
+      }
+    },
+    "title": {
+      "lg": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.22}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        }
+      },
+      "md": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.22}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        }
+      },
+      "sm": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.21}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        },
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.21}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        }
+      },
+      "xs": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.18}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.24}"
+          }
+        },
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.18}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.24}"
+          }
+        }
+      }
+    },
+    "body": {
+      "lg": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.17}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        },
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.17}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        }
+      },
+      "md": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.15}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.20}"
+          }
+        },
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.15}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.20}"
+          }
+        }
+      },
+      "sm": {
+        "regular": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.13}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.18}"
+          }
+        },
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.13}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.18}"
+          }
+        }
+      }
+    },
+    "label": {
+      "semibold": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{type.size.12}"
+        },
+        "height": {
+          "$type": "dimension",
+          "$value": "{type.height.16}"
+        }
+      },
+      "bold": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{type.size.12}"
+        },
+        "height": {
+          "$type": "dimension",
+          "$value": "{type.height.16}"
+        }
+      }
+    },
+    "link": {
+      "lg": {
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.17}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.26}"
+          }
+        }
+      },
+      "md": {
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.15}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.20}"
+          }
+        }
+      },
+      "sm": {
+        "semibold": {
+          "size": {
+            "$type": "dimension",
+            "$value": "{type.size.13}"
+          },
+          "height": {
+            "$type": "dimension",
+            "$value": "{type.height.18}"
+          }
+        }
+      }
+    },
+    "button": {
+      "semibold": {
+        "size": {
+          "$type": "dimension",
+          "$value": "{type.size.15}"
+        },
+        "height": {
+          "$type": "dimension",
+          "$value": "{type.height.0}"
+        }
+      }
+    }
+  }
+}
